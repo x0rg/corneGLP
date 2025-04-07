@@ -35,6 +35,16 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
         };
+
+        bracket_left {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <7 8>;
+        };
+
+        bracket_right {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <8 9>;
+        };
     };
 
     behaviors {
@@ -117,10 +127,10 @@
 
         Utilities {
             bindings = <
-&trans  &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMLOCK    &trans  &trans  &kp PRINTSCREEN  &kp C_PAUSE  &kp SCROLLLOCK  &trans
-&trans  &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans            &trans  &trans  &kp INS          &kp HOME     &kp PAGE_UP     &trans
-&trans  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans            &trans  &trans  &kp DEL          &kp END      &kp PAGE_DOWN   &trans
-                                          &trans           &trans           &kp H             &trans  &trans  &trans
+&trans  &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMLOCK    &bootloader  &trans  &kp PRINTSCREEN  &kp C_PAUSE  &kp SCROLLLOCK  &trans
+&trans  &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans            &trans       &trans  &kp INS          &kp HOME     &kp PAGE_UP     &trans
+&trans  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans            &trans       &trans  &kp DEL          &kp END      &kp PAGE_DOWN   &trans
+                                          &trans           &trans           &kp H             &trans       &trans  &trans
             >;
         };
 
