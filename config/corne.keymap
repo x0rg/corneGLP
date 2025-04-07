@@ -21,26 +21,37 @@
         cpslck {
             bindings = <&kp CAPSLOCK>;
             key-positions = <24 35>;
+            layers = <0>;
         };
 
         parentheses_left {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <19 20>;
+            layers = <0>;
         };
 
         parentheses_right {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
+            layers = <0>;
         };
 
         bracket_left {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <7 8>;
+            layers = <0>;
         };
 
         bracket_right {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <8 9>;
+            layers = <0>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <32 31>;
+            layers = <0>;
         };
     };
 
@@ -113,7 +124,7 @@
 &kp TAB      &kp PG_DN     &kp PG_UP     &kp INS         &kp N4     &kp N5    &kp N6    &kp N7    &kp N8        &kp N9     &kp N0  &kp BSPC
 &trans       &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans    &kp LEFT  &kp DOWN  &kp UP        &kp RIGHT  &trans  &trans
 &bootloader  &trans        &trans        &trans          &trans     &trans    &kp DEL   &kp HOME  &kp END       &trans     &trans  &trans
-                                         &kp LGUI        &trans     &trans    &kp RET   &trans    &kp LEFT_ALT
+                                         &kp LGUI        &trans     &trans    &trans    &trans    &kp LEFT_ALT
             >;
         };
 
