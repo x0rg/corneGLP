@@ -57,7 +57,7 @@
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <21 22>;
+            key-positions = <15 14>;
             layers = <0>;
         };
 
