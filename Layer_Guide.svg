@@ -6,7 +6,7 @@
    class="keymap"
    version="1.1"
    id="svg362"
-   sodipodi:docname="my_keymap(7).svg"
+   sodipodi:docname="my_keymap(8).svg"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,11 +23,11 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.29654771"
-     inkscape:cx="38.779595"
-     inkscape:cy="1171.8182"
-     inkscape:window-width="1676"
-     inkscape:window-height="1011"
+     inkscape:zoom="0.19257879"
+     inkscape:cx="617.9289"
+     inkscape:cy="1087.8664"
+     inkscape:window-width="1916"
+     inkscape:window-height="1161"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -158,12 +158,23 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 
+@media (prefers-color-scheme: dark) {
+svg.keymap { fill: #d1d6db; }
+rect.key { fill: #3f4750; }
+rect.key, rect.combo { stroke: #60666c; }
+rect.combo, rect.combo-separate { fill: #1f3d7a; }
+rect.held, rect.combo.held { fill: #854747; }
+text.label, text.footer { stroke: black; }
+text.trans { fill: #7e8184; }
+path.combo { stroke: #7f7f7f; }
+
+}
 svg.keymap { fill: #AAFFFF; }
 rect.key { fill: #253344; }
 rect.key, rect.combo { stroke: #60666c; }
 rect.combo, rect.combo-separate { fill: #02336e; stroke: #55AAAA}
 rect.held, rect.combo.held { fill: #854747; }
-text.label, text.footer { fill: #24292e; stroke: #000000; }
+text.label, text.footer { fill: #24292e; }
 text.trans { fill: #7e8184; }
 path.combo { stroke: #000000; }
 @media (prefers-color-scheme: dark) { text.label, text.footer { fill: #000000; stroke: #FFFFFF; } }
