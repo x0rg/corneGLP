@@ -117,9 +117,24 @@
             layers = <0>;
         };
 
-        excl {
-            bindings = <&kp EXCLAMATION>;
+        dollar {
+            bindings = <&kp DOLLAR>;
             key-positions = <15 20>;
+        };
+
+        excl {
+            bindings = <&kp EXCL>;
+            key-positions = <27 32>;
+        };
+
+        ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <17 18>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <29 30>;
         };
     };
 
