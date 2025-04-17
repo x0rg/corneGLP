@@ -140,6 +140,16 @@
             key-positions = <29 30>;
             layers = <0>;
         };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <21 22>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <14 13>;
+        };
     };
 
     behaviors {
