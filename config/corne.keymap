@@ -144,11 +144,13 @@
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <21 22>;
+            layers = <0>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <14 13>;
+            layers = <0>;
         };
     };
 
