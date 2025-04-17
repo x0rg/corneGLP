@@ -90,26 +90,31 @@
         hyphen {
             bindings = <&kp MINUS>;
             key-positions = <28 31>;
+            layers = <0>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <4 7>;
+            layers = <0>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <16 19>;
+            layers = <0>;
         };
 
         Pipe {
             bindings = <&kp PIPE>;
             key-positions = <27 26>;
+            layers = <0>;
         };
 
         astrsk {
             bindings = <&kp ASTERISK>;
             key-positions = <3 8>;
+            layers = <0>;
         };
     };
 
