@@ -120,21 +120,25 @@
         dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <15 20>;
+            layers = <0>;
         };
 
         excl {
             bindings = <&kp EXCL>;
             key-positions = <27 32>;
+            layers = <0>;
         };
 
         ampersand {
             bindings = <&kp AMPERSAND>;
             key-positions = <17 18>;
+            layers = <0>;
         };
 
         underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <29 30>;
+            layers = <0>;
         };
     };
 
