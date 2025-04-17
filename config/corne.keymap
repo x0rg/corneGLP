@@ -116,6 +116,11 @@
             key-positions = <3 8>;
             layers = <0>;
         };
+
+        excl {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <15 20>;
+        };
     };
 
     behaviors {
